@@ -1,0 +1,1 @@
+water-check-interval: 10 # how often (in ticks) to check if powdered concrete item-stacks are touching water
