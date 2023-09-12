@@ -1,10 +1,8 @@
 package me.erdi.betterconcrete.api.event.item;
 
-import org.bukkit.entity.Item;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-import org.bukkit.event.entity.EntityEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class StackPowderToConcreteEvent extends Event implements Cancellable {

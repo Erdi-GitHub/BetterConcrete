@@ -2,29 +2,21 @@ package me.erdi.betterconcrete;
 
 import me.erdi.betterconcrete.api.type.ConcreteType;
 import me.erdi.betterconcrete.manager.CraftManager;
-import me.erdi.betterconcrete.manager.WetManager;
 import me.erdi.betterconcrete.manager.SplashManager;
+import me.erdi.betterconcrete.manager.WetManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.inventory.CraftItemEvent;
-import org.bukkit.event.inventory.PrepareItemCraftEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.Recipe;
 import org.bukkit.inventory.ShapelessRecipe;
-import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.material.MaterialData;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.java.annotation.plugin.ApiVersion;
 import org.bukkit.plugin.java.annotation.plugin.Description;
 import org.bukkit.plugin.java.annotation.plugin.Plugin;
 import org.bukkit.plugin.java.annotation.plugin.author.Author;
-import org.bukkit.potion.PotionData;
-
-import java.util.Iterator;
 
 @Plugin(name = "BetterConcrete", version = "1.0.0")
 @Description("Makes concrete make sense")
